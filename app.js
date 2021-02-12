@@ -2,7 +2,6 @@
 
 const form = document.querySelector('#form');
 const formEvent = form.addEventListener('submit', async e => {
-    e.preventDefault();
     const name = document.querySelector('#name').value;
     const email = document.querySelector('#email').value;
     const contact = document.querySelector('#phone').value;
